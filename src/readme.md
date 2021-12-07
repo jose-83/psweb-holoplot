@@ -35,7 +35,8 @@ python3 psweb.py
 You can access the service at ```http://localhost:8080```
 
 
->>>>>>>>>>>>> The above has been writen by Holoplot <<<<<<<<<<<<<<
+NOTE: The above has been writen by Holoplot
+
 Now if you don't want to install python and its required library and just interested to see how to start this app, please try below:
 To build the image, run:
 ```shell script
