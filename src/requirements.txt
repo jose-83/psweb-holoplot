@@ -1,0 +1,7 @@
+Flask==2.0.1
+psutil==5.8.0
+requests==2.25.1
+jsonpath==0.82
+pytest==6.2.5
+assertpy==1.1
+PyHamcrest==2.0.2
