@@ -33,3 +33,16 @@ python3 psweb.py
    ```    
 
 You can access the service at ```http://localhost:8080```
+
+
+>>>>>>>>>>>>> The above has been writen by Holoplot <<<<<<<<<<<<<<
+Now if you don't want to install python and its required library and just interested to see how to start this app, please try below:
+To build the image, run:
+```shell script
+docker build -t psweb-app-image:0.1 .
+   ```  
+Then, you should have an image with this name: psweb-app-image. To run it:
+```shell script
+docker run -p 8080:8080 --name psweb-app psweb-app-image:0.1
+   ```  
+Then, open http://localhost:8080/ on your browser to see how this app works.
